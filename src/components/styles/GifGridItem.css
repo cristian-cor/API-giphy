@@ -1,0 +1,11 @@
+.container {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr 0fr;
+gap: 16px 26px;
+grid-template-areas:
+"car_1 car_2 car_3"
+"car_4 car_5 car_6"
+". . .";
+}
+.car_1 { grid-area: car_1; }
